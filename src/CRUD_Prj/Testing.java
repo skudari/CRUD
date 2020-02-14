@@ -28,7 +28,6 @@ public class Testing {
             assertEquals("Id: 1 Year: 2003 Make: Mitsubushi Model: Galant\n", testVehicle.get_vehicles(1));
             assertEquals("Id: 2 Year: 2009 Make: Ford Model: F150\n", testVehicle.get_vehicles(2));
 
-            //int id, int new_id, int year, String make, String model
             testVehicle.update_vehicles(1, 7, 2018, "Toyota", "Yaris");
             testVehicle.update_vehicles(2, 2, 2004, "Honda", "Civic");
 

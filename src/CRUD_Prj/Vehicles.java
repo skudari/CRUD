@@ -6,11 +6,6 @@ import java.sql.ResultSet;
 
 public class Vehicles {
 
-    public static void main(String[] args) {
-        Vehicles objTest = new Vehicles();
-        objTest.get_vehicles(1);
-    }
-
     public String get_vehicles(){
         DB_Connection obj_DB_Connection = new DB_Connection();
         Connection connection = obj_DB_Connection.get_connection();
